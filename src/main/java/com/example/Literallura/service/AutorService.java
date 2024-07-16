@@ -21,7 +21,7 @@ public class AutorService {
         Optional<Autor> autorExistente = autorRepository.findByNombre(nombre);
 
         if (autorExistente.isPresent()) {
-            return autorExistente.get(); // Devuelve el autor existente si se encuentra
+            return autorExistente.get(); 
         } else {
             Autor nuevoAutor = new Autor(nombre);
             
