@@ -23,7 +23,7 @@ public class Autor {
     @OneToMany(mappedBy = "autor", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Libro> libros;
 
-    // Constructor vacío y getters/setters
+    
     public Autor() {
     }
 
