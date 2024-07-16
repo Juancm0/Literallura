@@ -24,12 +24,12 @@ public class AutorService {
             return autorExistente.get(); // Devuelve el autor existente si se encuentra
         } else {
             Autor nuevoAutor = new Autor(nombre);
-            // Aquí podrías realizar la lógica para obtener y guardar las fechas del autor desde la API
-            return autorRepository.save(nuevoAutor); // Guarda y devuelve el nuevo autor creado
+            
+            return autorRepository.save(nuevoAutor);
         }
     }
 
-    // Método para buscar autor por nombre
+    
     public Optional<Autor> buscarAutorPorNombre(String nombre) {
         return autorRepository.findByNombre(nombre);
     }
