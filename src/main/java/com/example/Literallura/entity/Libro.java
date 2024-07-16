@@ -25,14 +25,14 @@ public class Libro {
 
     @ManyToOne
     @JoinColumn(name = "autor_id")
-    @Cascade(CascadeType.PERSIST) // Configuración de cascada para persistencia
+    @Cascade(CascadeType.PERSIST) 
     private Autor autor;
 
     // Constructor vacío
     public Libro() {
     }
 
-    // Constructor con todos los atributos
+    
     public Libro(String titulo, Integer numeroDescargas, String idioma, Autor autor) {
         this.titulo = titulo;
         this.numeroDescargas = numeroDescargas;
@@ -40,7 +40,7 @@ public class Libro {
         this.autor = autor;
     }
 
-    // Getters y setters
+    
     public Long getId() {
         return id;
     }
