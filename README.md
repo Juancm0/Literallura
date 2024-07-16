@@ -15,12 +15,10 @@ Literallura es una aplicación de gestión de libros y autores que te permite re
 - **Listar libros por idioma:** Muestra libros filtrados por idioma.
 
 ## Tecnologías Utilizadas
-
 - Java
 - Spring Boot
 - PostgreSQL
 - Gutendex API
-- 
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Para más detalles, ver el archivo LICENSE.
