@@ -26,7 +26,7 @@ public class LibroService {
     }
 
     public Libro guardarLibroConAutor(String tituloLibro, String nombreAutor) {
-        // Lógica para guardar libro con autor, como ya lo habíamos configurado
+        
         return null;
     }
 }
